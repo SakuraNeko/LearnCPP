@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{F1FB5849-4397-4C8F-9F7F-0E9C1BFE9FCA}</ProjectGuid>
-    <RootNamespace>LearnC</RootNamespace>
+    <ProjectGuid>{A0F508BC-EF70-45C0-85F1-7CD8062355B3}</ProjectGuid>
+    <RootNamespace>NameSpaceTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
