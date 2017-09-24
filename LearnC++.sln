@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloC++", "HelloC++\HelloC++.vcxproj", "{16F5D7B8-41BE-43F8-8307-091E4BA5D2D9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JustTest", "JustTest\JustTest.vcxproj", "{7519064C-7D4A-483A-94AF-6E5A0D4560F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrintStar", "PrintStar\PrintStar.vcxproj", "{133FDCEB-918D-490D-B6AA-07D3F79CBB05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle D and C", "Triangle D and C\Triangle D and C.vcxproj", "{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sorting", "Sorting\Sorting.vcxproj", "{E34B8222-7837-476B-940D-0365696693EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NameAndPhoneEasyManage", "NameAndPhoneEasyManage\NameAndPhoneEasyManage.vcxproj", "{01665251-01D9-4FB7-B424-25443E052AA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,38 @@ Global
 		{7519064C-7D4A-483A-94AF-6E5A0D4560F8}.Release|x64.Build.0 = Release|x64
 		{7519064C-7D4A-483A-94AF-6E5A0D4560F8}.Release|x86.ActiveCfg = Release|Win32
 		{7519064C-7D4A-483A-94AF-6E5A0D4560F8}.Release|x86.Build.0 = Release|Win32
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Debug|x64.ActiveCfg = Debug|x64
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Debug|x64.Build.0 = Debug|x64
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Debug|x86.ActiveCfg = Debug|Win32
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Debug|x86.Build.0 = Debug|Win32
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Release|x64.ActiveCfg = Release|x64
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Release|x64.Build.0 = Release|x64
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Release|x86.ActiveCfg = Release|Win32
+		{133FDCEB-918D-490D-B6AA-07D3F79CBB05}.Release|x86.Build.0 = Release|Win32
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Debug|x64.ActiveCfg = Debug|x64
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Debug|x64.Build.0 = Debug|x64
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Debug|x86.ActiveCfg = Debug|Win32
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Debug|x86.Build.0 = Debug|Win32
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Release|x64.ActiveCfg = Release|x64
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Release|x64.Build.0 = Release|x64
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Release|x86.ActiveCfg = Release|Win32
+		{71B5F792-A1FE-4FB3-9FB4-9A43E3BFE74D}.Release|x86.Build.0 = Release|Win32
+		{E34B8222-7837-476B-940D-0365696693EB}.Debug|x64.ActiveCfg = Debug|x64
+		{E34B8222-7837-476B-940D-0365696693EB}.Debug|x64.Build.0 = Debug|x64
+		{E34B8222-7837-476B-940D-0365696693EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E34B8222-7837-476B-940D-0365696693EB}.Debug|x86.Build.0 = Debug|Win32
+		{E34B8222-7837-476B-940D-0365696693EB}.Release|x64.ActiveCfg = Release|x64
+		{E34B8222-7837-476B-940D-0365696693EB}.Release|x64.Build.0 = Release|x64
+		{E34B8222-7837-476B-940D-0365696693EB}.Release|x86.ActiveCfg = Release|Win32
+		{E34B8222-7837-476B-940D-0365696693EB}.Release|x86.Build.0 = Release|Win32
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Debug|x64.ActiveCfg = Debug|x64
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Debug|x64.Build.0 = Debug|x64
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Debug|x86.Build.0 = Debug|Win32
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Release|x64.ActiveCfg = Release|x64
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Release|x64.Build.0 = Release|x64
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Release|x86.ActiveCfg = Release|Win32
+		{01665251-01D9-4FB7-B424-25443E052AA4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
